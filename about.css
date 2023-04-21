@@ -1,0 +1,112 @@
+/* Global Styles */
+
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* Header Styles */
+
+
+
+.btn:hover {
+    background-color: #0059b3;
+}
+
+/* Main Content Styles */
+
+.about-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.testimonials {
+    background-color: #fff;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.testimonial {
+    margin-bottom: 2rem;
+}
+
+.testimonial h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.testimonial p {
+    font-style: italic;
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: #0066cc;
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Utility Classes */
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+
+.font-bold {
+    font-weight: bold;
+}
+
+.min-h-screen {
+    min-height: calc(100vh - 100px);
+}
+
+p{
+    font-style: italic;
+        font-size: 1.25rem;
+        margin: 0;
+}
